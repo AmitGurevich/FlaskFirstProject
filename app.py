@@ -2,9 +2,10 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # A welcome message to test our server
-@app.route('/')
-def index():
-    return "<h1>jumper Project</h1>"
+@app.route("/")
+def home():
+    return render_template("home.html")
+
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
