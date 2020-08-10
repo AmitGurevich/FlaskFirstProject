@@ -1,10 +1,11 @@
-from flask import Flask, request, jsonify
+from flask import Flask, render_template
+
 app = Flask(__name__)
 
 # A welcome message to test our server
 @app.route("/")
 def home():
-    return "<h1>Welcome to our server !!</h1>"
+    return render_template("home.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
