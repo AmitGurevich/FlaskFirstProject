@@ -1,0 +1,165 @@
+body{
+	padding: 0;
+	height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.main-div{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	position:fixed;
+	background-color:black;
+	background-size: 50% 50%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#left-div{
+	position:absolute;
+	width:0.5vw;
+	float:left;
+	height:89vh;
+	opacity: 0.5;
+	background-color:blue;
+	transition-duration: 1s;
+	z-index:1;
+}
+
+#left-div:hover{
+	float:left;
+	width:10vw;
+	height:89vh;
+	opacity:0.5;
+	background-color:blue;
+	transition-duration:1s;
+	z-index:100;
+}
+
+#right-div:hover{
+	width:10vw;
+	float:right;
+	height:89vh;
+	opacity: 0.5;
+	background-color:blue;
+	transition-duration:1s;
+	z-index:100;
+}
+
+#right-div{
+	position: relative;
+    width: 0.5vw;
+    height: 89vh;
+    float: right;
+    opacity: 0.5;
+    background-color: blue;
+    transition-duration: 1s;
+    z-index: 1;
+}
+
+#center-div{
+	width:99vw;
+    height:89vh;
+	opacity:0.5;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: purple;
+	transition-duration:1s;
+	z-index:100;
+}
+
+#center-div1:hover{
+	width:99vw;
+    height:89vh;
+	opacity:0.5;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: purple;
+	transition-duration:1s;
+}
+
+#foot-div:hover{
+	bottom:10;
+	float:left;
+	width:100vw;
+	height:20vh;
+	opacity:0.5;
+	background-color:white;
+	transition-duration:2s;
+}
+
+#foot-div{
+	bottom:0;
+	width:100%;
+	height:5vh;
+	float: left;
+	opacity: 0.5;
+	position:absolute;
+	background-color:grey;
+	transition-duration:2s;
+}
+
+#head-div1:hover{
+	margin:0;
+	padding:0;
+	width:100vw;
+	opacity: 0.5;
+	height: 7.2vh;
+	background-color:red;
+	transition-duration: 2s;
+}
+
+#head-div{
+	top:0;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:10vh;
+	opacity: 0.5;
+	background-color:red;
+}
+
+h1{
+	text-align: center;
+    margin-block-end: 0em;
+	margin-block-start: 0em;
+	transition-duration:1s;
+}
+
+ul {
+
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  list-style-type:none;
+  background-color:#333;
+  transition-duration:1s;
+}
+
+li {
+  float:left;
+  transition-duration:2s;
+  margin-left:auto;
+  margin-right:auto;
+  width:5vw;
+}
+
+li a {
+  color:white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration:2s;
+}
+
+li a:hover{
+	position:fixed;
+	height: 10vh;
+  //padding:100px 16px;
+  background-color:white;
+  color:gray;
+  transition-duration:2s;
+}
