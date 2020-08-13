@@ -8,7 +8,7 @@ app.add_api('swagger.yml')
 def home():
     return render_template("home.html")
 
-@app.route('/')
+@app.route('/peop')
 def people():
     
     return render_template('people.html')
